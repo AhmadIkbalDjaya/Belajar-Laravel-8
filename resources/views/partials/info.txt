@@ -1,0 +1,2 @@
+folder untuk menyimpan bagian bagian spesifik dari sebuah halaman
+biasa disebut komponen
