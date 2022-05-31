@@ -8,7 +8,7 @@
     <ul>
         <li>
             <h2>
-                <a href="/category/{{ $category->slug }}">
+                <a href="/categories/{{ $category->slug }}">
                     {{ $category->name }}      
                 </a>
             </h2>
