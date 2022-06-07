@@ -60,4 +60,5 @@ Route::get('dashboard', function(){
     return view('dashboard.index');
 })->middleware('auth');
 
-Route::resource('dashboard/posts', DashboardPostContorller::class)->middleware('auth');
+Route::get('/dashboard/posts/checkSlug', [DashboardPostContorller::class, 'checkSlug'])->middleware('auth');
+Route::resource('/dashboard/posts', DashboardPostContorller::class)->middleware('auth');
